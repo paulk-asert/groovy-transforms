@@ -1,0 +1,12 @@
+package standard
+
+class Chemist {
+    String first
+    String last
+    int born
+}
+
+def c = new Chemist(first: "Marie", last: "Curie", born: 1867)
+assert c.first == "Marie"
+assert c.last == "Curie"
+assert c.born == 1867
